@@ -178,9 +178,8 @@ hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
 }
 
-/*
 .columnbox{
-  background-color: green;
+  background-color: inherit;
   text-align: center;
   display: flex;
   margin-top: 1%;
@@ -190,44 +189,63 @@ hr{
 /* Column 1 */
 
 .column1box{
-  background-color: rgb(7, 162, 31);
-  width:50%;
+  background-color: inherit;
+  width:40%;
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 50%;
   margin-right: 0.5%;
-  margin-left: 1%;
+  margin-left: 10%;
   padding-left: 1%;
   padding-right: 1%;
-  padding-top: 3%;
   padding-bottom: 5%;
 }
 
-h3.first{
-  text-shadow: 1px 1px 2px pink;
+h3{
+  font-family: 'Courier New';
+  font-weight: 600px;
+  text-align: justify;
 }
 
-.textcolumn1{
-  font-family: Cantarell;
-  text-shadow: 1px 1px 2px pink;
+p.content{
+  font-family:'Arial Narrow';
+  font-weight: 100;
+  font-size: 12px;
+  text-align:justify;
 }
 
 
 /* Column 2 */
 
 .column2box{
-  background-color: rgb(7, 162, 31);
-  width: 50%;
+  background-color: inherit;
+  width:40%;
   margin-top: 1%;
-  margin-bottom: 1%;
-  margin-right: 1%;
+  margin-bottom: 50%;
+  margin-right: 10%;
   margin-left: 1%;
   padding-left: 1%;
   padding-right: 1%;
-  padding-top: 3%;
   padding-bottom: 5%;
 }
 
-.textcolumn2{
-  font-family: Cantarell;
-  text-shadow: 1px 1px 2px pink;
-} */
+/* Radio Form and Button */
+table{
+  width:100%;
+  text-align: left;
+}
+
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+label{
+  font-family:'Arial Narrow';
+  font-weight: 100;
+  font-size: 12px;
+  text-align:justify;
+}
+input{
+  text-align: justify;
+}
