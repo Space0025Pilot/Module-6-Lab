@@ -39,3 +39,12 @@ h1 {
 }
 
 /* Your CSS below here */
+
+.a{
+  background-image: url('top-image.png');
+  height: fit-content;
+  background-repeat: no-repeat;
+  max-width: fit-content;
+  background-position: 20px top;
+
+}
