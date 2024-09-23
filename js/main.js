@@ -7,27 +7,31 @@ function loaded() {
     // Assign to a variable so we can set a breakpoint in the debugger!
     
     function buttonFunction(){
-        // const hello = Hello();
-        
-        if(document.getElementById('KaraThrace').ariaValueNow == "k"){
-            document.getElementById("generate").onclick = Kara;
-        }
-        else if(document.getElementById("EllieWilliams").ariaValueNow == "e"){
-            document.getElementById("generate").onclick = Ellie;
-        }
-        else if(document.getElementById("ShaneVansen").ariaValueNow == "s"){
-            document.getElementById("generate").onclick = Shane;
-        }
-        else if(document.getElementById("Xena").ariaValueNow == "x"){
-            document.getElementById("generate").onclick = Xena;
-        }
-        else if(document.getElementById("Nobody").ariaValueNow == "n"){
-            document.getElementById("generate").onclick = Nobody;
-        }
-        else{
-            document.getElementById("generate").onclick = Hello;
-        }
-        
+        if (document.querySelector('input[name="radiogroup"]')) {
+            document.querySelectorAll('input[name="radiogroup"]').forEach((elem) => {
+              elem.addEventListener("change", function(event) {
+                var item = event.target.value;
+                if(item == "kara"){
+                    document.getElementById("generate").onclick = Kara;
+                }
+                else if(item == "ellie"){
+                    document.getElementById("generate").onclick = Ellie;
+                }
+                else if(item == "shane"){
+                    document.getElementById("generate").onclick = Shane;
+                }
+                else if(item == "xena"){
+                    document.getElementById("generate").onclick = Xena;
+                }
+                else if(item == "nobody"){
+                    document.getElementById("generate").onclick = Nobody;
+                }
+                else{
+                    document.getElementById("generate").onclick = Hello;
+                }
+              });
+            });
+          } 
     }
     buttonFunction();
 }

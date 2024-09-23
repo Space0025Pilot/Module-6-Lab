@@ -227,6 +227,9 @@ p.content{
   padding-right: 1%;
   padding-bottom: 5%;
 }
+div {
+  text-align: left;
+}
 
 /* Radio Form and Button */
 table{

@@ -15,7 +15,7 @@ How to Run the Code:
 
 ## Sources and Credits
 
-Here I utilized sources provided by the Professor for reading along with resources for linear gradient, 
+Here I utilized sources provided by the Professor for reading along with resources for linear gradient, drop shadow, RGBA function and use, and the event listener. 
 
 Below is the list of resources used for this project:
 
@@ -23,3 +23,6 @@ Below is the list of resources used for this project:
 - Linear Gradients: https://www.w3schools.com/css/css3_gradients.asp
 - Drop Shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow
 - RGBA function: https://www.w3schools.com/cssref/func_rgba.php
+- Event Listener: https://stackoverflow.com/questions/58606047/how-to-use-on-addeventlistener-on-radio-button-in-plain-javascript
+- Event Listener 2: https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/
+- Event Listener 3: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
